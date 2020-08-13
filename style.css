@@ -1,6 +1,10 @@
-body, body * {
+body, pre, a {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: #111;
-    color: #0f0
+    color: #0f0;
+}
+
+a:hover, a:active {
+    color: #ff0
 }
